@@ -1,0 +1,14 @@
+.myFormContainer {
+    margin: 30px auto;
+    max-width: 310px;
+    border: 1.5px solid rgb(118, 160, 223);
+}
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    padding: 20px;
+}

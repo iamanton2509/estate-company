@@ -1,0 +1,28 @@
+.comment {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0 10px 0;
+    border: 1.5px solid var(--footer-border);
+}
+.comment-name {
+    padding: 4px 4px 0 4px;
+    font-size: 20px;
+    color: var(--different-blue);
+}
+.comment-body {
+    padding: 4px;
+    font-size: 16px;
+    color: var(--service-paragraph);
+}
+
+@media (max-width: 620px) {
+    .comment {
+        height: 200px;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 1250px) {
+    .comment {
+        height: 220px;
+    }
+}

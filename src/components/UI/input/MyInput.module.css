@@ -1,0 +1,14 @@
+.myInputField {
+    display: block;
+    outline: none;
+    width: 250px;
+    margin: 1px 0 10px 0;
+    padding: 6px;
+    border: 1.5px solid rgb(118, 160, 223);
+}
+input[type=date] {
+    color: var(--placeholder-color);
+}
+::placeholder {
+    color: var(--placeholder-color);
+}

@@ -1,0 +1,12 @@
+.mySelect {
+    display: block;
+    outline: none;
+    width: 250px;
+    margin: 15px 0;
+    padding: 6px;
+    border: 1.5px solid rgb(118, 160, 223);
+    color: var(--placeholder-color);
+}
+::placeholder {
+    color: var(--placeholder-color);
+}

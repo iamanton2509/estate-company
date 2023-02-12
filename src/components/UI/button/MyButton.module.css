@@ -1,0 +1,19 @@
+.myBtn {
+    padding: 8px 14px;
+    margin: 25px auto 15px;
+    width: 250px;
+    border: 1.5px solid rgb(118, 160, 223);
+    color: rgb(118, 160, 223);
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.3s;
+}
+.myBtn:hover {
+    background-color: rgb(118, 160, 223);
+    color: #F6F6F6;
+}
+

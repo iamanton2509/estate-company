@@ -1,0 +1,223 @@
+.content-text {
+    position: relative;
+    z-index: 1;
+    height: 600px;
+    padding-top: 55px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content-title {
+    position: absolute;
+    width: 700px;
+    font-size: 60px;
+    font-weight: 600;
+
+    background: var(--title);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-description {
+    position: relative;
+    top: 200px;
+    padding-top: 45px;
+    color: var(--page-description);
+    font-size: 25px;
+    font-weight: 400;
+}
+.page-content {
+    height: 300px;
+    margin-bottom: 15px;
+}
+.content-row {
+    display: flex;
+    justify-content: space-between;
+}
+.content-image {
+    max-width: 700px;
+    height: auto;
+    object-fit: contain;
+    padding-top: 55px;
+    border-radius: 10px;
+}
+.content-image img {
+    border-radius: 12px;
+}
+
+/* Projects */
+
+.projects-title-main {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    text-align: center;
+    color: var(--content-description);
+    margin: 120px 0 50px;
+}
+.projects {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project {
+    max-width: 380px;
+    background: linear-gradient(132.05deg, rgb(118, 160, 223) 50%, rgb(2, 68, 112) 78.4%);
+    border: 1.5px solid rgb(165, 211, 234);
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.project-title {
+    padding: 10px;
+    color: #F6F6F6;
+}
+.project-image {
+    width: 380px;
+    height: 250px;
+}
+
+/* Page description */
+
+.desc {
+    padding: 50px;
+}
+.desc h2 {
+    margin: 25px 0;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--content-description);
+}
+.desc p {
+    font-size: 25px;
+    font-weight: 300;
+    color: var(--page-description);
+}
+
+/* Adaptive */
+
+@media (max-width: 620px) {
+    .content-row {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .content-title {
+        font-size: 42px;
+        text-align: center;
+        position: unset;
+        width: unset;
+
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+    }
+    .content-description {
+        position: unset;
+        top: unset;
+        padding-top: 25px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .content-text {
+        padding-top: 20px;
+        position: unset;
+        z-index: unset;
+        height: unset;
+    }
+    .content-image {
+        display: none;
+    }
+    .content-image img {
+        display: none;
+    }
+    div.content {
+        height: 150px;
+    }
+    .projects-title-main {
+        font-size: 40px;
+        font-weight: 400;
+        margin: 155px 0 30px;
+
+        text-align: center;
+        color: var(--page-description);
+    }
+
+    /* Site description */
+
+    .desc {
+        padding: 18px;
+    }
+    .desc h2 {
+        margin: 15px 0;
+        font-size: 35px;
+        text-align: center;
+    }
+    .desc p {
+        font-size: 17px;
+        text-align: center;
+    }
+    body {
+        background: var(--mobile-background);
+    }
+}
+
+@media (min-width: 620px) and (max-width: 1250px) {
+    .content {
+        height: 350px;
+    }
+    /* Hide image */
+    .content-image {
+        display: none;
+    }
+    .content-image img {
+        display: none;
+    }
+
+    .content-row {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .content-title {
+        font-size: 65px;
+        text-align: center;
+        position: unset;
+        width: unset;
+
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+
+        color: var(--different-blue);
+        -webkit-text-fill-color: unset;
+    }
+    .content-description {
+        position: unset;
+        top: unset;
+        padding-top: 25px;
+        font-size: 30px;
+        text-align: center;
+
+        color: var(--page-description);
+    }
+    .content-text {
+        padding-top: 20px;
+        position: unset;
+        z-index: unset;
+        height: unset;
+    }
+
+    .projects-title-main {
+        margin: 10px 0 35px;
+    }
+    .project {
+        max-width: 300px;
+    }
+    .project-image {
+        width: 300px;
+        height: 195px;
+    }
+
+    .desc h2 {
+        text-align: center;
+    }
+    .desc p {
+        text-align: center;
+    }
+}
