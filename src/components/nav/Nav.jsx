@@ -28,7 +28,7 @@ function Nav() {
             <div className="container">
                 <div className={visible ? 'nav-row open' : 'nav-row'}>
                     <NavLink to="/" className="nav-logo">
-                        <strong>Real Estate Shit</strong>
+                        <strong>Haven Estate</strong>
                     </NavLink>
                     
                     <ul className="nav-list">

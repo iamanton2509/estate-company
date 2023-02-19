@@ -33,7 +33,7 @@ const projects = [
         img: photo1,
         year: 2020,
         area: 8000,
-        details: 'An apartment is located in a gated residential complex with security and a video surveillance system'
+        details: 'Experience the ultimate in city living with our luxurious residential complex. Set amidst lush greenery, our spacious and modern apartments offer the perfect escape from the hustle and bustle of urban life.'
     },
     {
         id: 2,
@@ -41,7 +41,7 @@ const projects = [
         img: photo11,
         year: 2019,
         area: 9000,
-        details: 'On the territory of the residential complex there is a 24-hour security, a swimming pool and luxurious tropical gardens.'
+        details: 'Elevate your lifestyle with breathtaking views and world-class amenities. Our complex offers the perfect blend of elegance and comfort, with spacious apartments designed to cater to all your needs.'
     },
     {
         id: 3,
@@ -49,7 +49,7 @@ const projects = [
         img: photo17,
         year: 2021,
         area: 11000,
-        details: 'Alter Ego premium-class residential complex comprises two 24-storey residential blocks.'
+        details: 'Discover the best of luxury living at our premium residential complex. With an unbeatable location in the heart of the city, our fully furnished apartments offer the perfect combination of style, comfort, and convenienceAlter Ego premium-class residential complex comprises two 24-storey residential blocks.'
     },
   
     {
@@ -58,7 +58,7 @@ const projects = [
         img: photo4,
         year: 2022,
         area: 14500,
-        details: 'This residential complex will have more than 1,800 apartments'
+        details: 'Enjoy the convenience of city living with all the comforts of home. Our contemporary apartments feature stunning city views and are designed to provide a serene and relaxing environment.'
     },
     {
         id: 5,
@@ -74,7 +74,7 @@ const projects = [
         img: photo22,
         year: 2017,
         area: 6000,
-        details: 'We just need to choose the right house - these words describe this residential complex on the websites of real estate agencies.'
+        details: 'Embrace the beauty of nature with our stunning residential complex, nestled in a tranquil park-like setting. Our spacious and elegantly designed apartments offer the perfect escape from the chaos of the city.'
     },
     {
         id: 7,
@@ -82,7 +82,7 @@ const projects = [
         img: photo15,
         year: 2016,
         area: 7600,
-        details: 'The residential complex will provide you with a new level and modern standards of living.'
+        details: 'Experience the ultimate in privacy and exclusivity at our high-end residential complex. Our luxurious apartments offer an unparalleled level of comfort and style, with amenities that cater to your every need.'
     },
     {
         id: 8,
@@ -90,7 +90,7 @@ const projects = [
         img: photo10,
         year: 2021,
         area: 9500,
-        details: 'We offer high-quality apartments with convenient layouts in a residential complex on a rise, consisting of 14 buildings of four types.'
+        details: 'Our residential complex is located in a peaceful and serene environment, surrounded by lush greenery and scenic views. The apartments are designed with modern amenities to ensure a comfortable and luxurious living experience.'
     },
     {
         id: 9,
@@ -98,7 +98,7 @@ const projects = [
         img: photo25,
         year: 2022,
         area: 10000,
-        details: 'Amazing new residential complex with cutting-edge design, aimed to enjoy the breathtaking views of the Mediterranean sea to the fullest'
+        details: 'Experience the perfect blend of urban living and natural beauty in our residential complex. The apartments are built to provide a spacious and airy living space, with easy access to green parks and walking trails.'
     },
     {
         id: 10,
@@ -106,7 +106,7 @@ const projects = [
         img: photo26,
         year: 2019,
         area: 13000,
-        details: 'This development is a residential complex where the Mediterranean tradition coexists with the most cosmopolitan modernity.'
+        details: 'Discover the height of luxury living in our modern residential complex. Our apartments offer breathtaking views of the city skyline and are equipped with the latest amenities for a comfortable and convenient lifestyle.'
     },
     {
         id: 11,
@@ -114,7 +114,7 @@ const projects = [
         img: photo8,
         year: 2020,
         area: 8000,
-        details: 'The apartment on the third floor in a small residential complex near Piazza Marconi.'
+        details: 'Indulge in the ultimate coastal living experience in our residential complex, which is situated on the oceanfront. Our villas offer stunning views of the ocean and are designed to provide a luxurious and comfortable living space.'
     },
     {
         id: 12,
@@ -122,7 +122,7 @@ const projects = [
         img: photo9,
         year: 2017,
         area: 11350,
-        details: 'The residential complex consists of several villas, each of which has its own swimming pool and parking space.'
+        details: 'Our residential complex is a peaceful haven in the heart of the city, offering residents a tranquil escape from the bustling urban environment. The apartments are built with a focus on sustainability and offer modern amenities for a comfortable and eco-friendly living experience.'
     },
     {
         id: 13,
@@ -130,7 +130,7 @@ const projects = [
         img: photo28,
         year: 2020,
         area: 4000,
-        details: 'The architectural design of residential complex has been developed, which also includes the objects of social and domestic infrastructure.'
+        details: 'Welcome to our luxurious residential complex, where comfort meets elegance. Our modern apartments offer the latest in amenities and technology, while our beautifully landscaped grounds provide a serene oasis in the heart of the city.'
     },
     {
         id: 14,
@@ -138,7 +138,7 @@ const projects = [
         img: photo29,
         year: 2021,
         area: 12000,
-        details: 'The landscape is traced in detail, to which great importance is attached to the residential complex for the convenience of current and future residents'
+        details: 'Discover the best of urban living in our vibrant residential complex. With spacious floor plans and stunning views of the city skyline, our apartments are the perfect blend of sophistication and convenience. Our community amenities include a state-of-the-art fitness center, pool, and rooftop lounge.'
     },
     {
         id: 15,
@@ -146,7 +146,7 @@ const projects = [
         img: photo30,
         year: 2022,
         area: 10000,
-        details: 'This modern residential complex with large grounds and swimming pool located close to the centre of Mahmutlar, 300 m from the equipped beach'
+        details: 'Escape to a tranquil retreat in our peaceful residential complex. Our spacious apartments are designed with your comfort in mind, featuring high-end finishes and thoughtful details. Our private courtyard and outdoor recreation area offer a serene escape from the hustle and bustle of the city.'
     },
     {
         id: 16,
@@ -154,7 +154,7 @@ const projects = [
         img: photo31,
         year: 2017,
         area: 9000,
-        details: 'Reception and custodian services, enclosed sports ground with artificial surface and security services form a part of the residential complex'
+        details: 'Experience the ultimate in modern living in our sleek and stylish residential complex. Our apartments feature open-concept layouts and high-end finishes, while our community amenities include a 24-hour fitness center, co-working space, and rooftop terrace with panoramic views.'
     },
     {
         id: 17,
@@ -162,7 +162,7 @@ const projects = [
         img: photo32,
         year: 2020,
         area: 7000,
-        details: 'Since in this zone there are modern buildings the residential complex is constructed observing the company style.'
+        details: 'Welcome to a community that feels like home. Our residential complex offers a warm and welcoming environment, with spacious apartments and inviting common areas. Our community amenities include a resident lounge, dog park, and onsite laundry facilities for your convenience.'
     },
     {
         id: 18,
@@ -170,7 +170,7 @@ const projects = [
         img: photo13,
         year: 2022,
         area: 11000,
-        details: 'This residential complex offers everything that an investor demands in terms of construction quality, taking into account the external environment.'
+        details: 'Nestled in a tranquil location surrounded by lush greenery, Serene Haven offers modern and luxurious apartments that provide the perfect escape from the hustle and bustle of the city.'
     },
     {
         id: 19,
@@ -178,7 +178,7 @@ const projects = [
         img: photo14,
         year: 2020,
         area: 13500,
-        details: 'Private residential complex, enter the territory therefore can only residents and their guests, that creates an atmosphere of privacy and exclusivity.'
+        details: `Located just steps away from the beach, Coastal Retreat offers stunning ocean views and an idyllic seaside lifestyle. Enjoy spacious and contemporary apartments that make you feel like you're on vacation every day.`
     },
     {
         id: 20,
@@ -186,7 +186,7 @@ const projects = [
         img: photo3,
         year: 2018,
         area: 14000,
-        details: 'An apartment is located in a gated residential complex with security and a video surveillance system'
+        details: `Situated in the heart of the city, City Oasis offers a peaceful and relaxing haven from the busy urban environment. With elegant and well-appointed apartments, you'll enjoy the best of both worlds - a convenient location and a tranquil home.`
     },
     {
         id: 21,
@@ -194,7 +194,7 @@ const projects = [
         img: photo36,
         year: 2021,
         area: 12000,
-        details: 'The landscape is traced in detail, to which great importance is attached to the residential complex for the convenience of current and future residents'
+        details: `Boasting panoramic views of the city skyline, Elevated Living offers an elevated lifestyle experience that's hard to beat. Featuring stylish and spacious apartments with high-end finishes and state-of-the-art amenities, this is urban living at its finest.`
     },
     {
         id: 22,
@@ -202,7 +202,7 @@ const projects = [
         img: photo2,
         year: 2020,
         area: 9000,
-        details: 'Reception and custodian services, enclosed sports ground with artificial surface and security services form a part of the residential complex'
+        details: `Surrounded by picturesque parks and green spaces, Nature's Haven offers a peaceful and natural retreat in the heart of the city. Enjoy the perfect blend of urban and outdoor living in beautifully designed apartments that seamlessly integrate with their surroundings.`
     },
     {
         id: 23,
@@ -210,7 +210,7 @@ const projects = [
         img: photo5,
         year: 2023,
         area: 6000,
-        details: 'Amazing new residential complex with cutting-edge design, aimed to enjoy the breathtaking views of the Mediterranean sea to the fullest'
+        details: 'This residential complex is the epitome of luxury living, offering high-end finishes and top-of-the-line amenities. Nestled in a serene and peaceful setting, this complex provides the ultimate refuge from the hustle and bustle of the city.'
     },
     {
         id: 24,
@@ -218,7 +218,7 @@ const projects = [
         img: photo6,
         year: 2020,
         area: 5500,
-        details: 'We just need to choose the right house - these words describe this residential complex on the websites of real estate agencies.'
+        details: 'Looking for a peaceful haven in the midst of the city? This residential complex is the answer. With lush green spaces, landscaped gardens, and a resort-style pool, this complex provides an urban oasis where you can escape from the noise and chaos of the city.'
     },
     {
         id: 25,
@@ -226,7 +226,7 @@ const projects = [
         img: photo35,
         year: 2016,
         area: 7500,
-        details: 'This residential complex is a symbiosis of careful restoration of historical buildings and new construction, preserving the aristocratic character of the region and the area.'
+        details: 'Perched atop a hill, this residential complex offers breathtaking views of the city and the surrounding landscape. With spacious apartments, top-quality finishes, and state-of-the-art facilities, this complex is the perfect place to call home.'
     },
     {
         id: 26,
@@ -234,7 +234,7 @@ const projects = [
         img: photo34,
         year: 2018,
         area: 8000,
-        details: 'The territory of the residential complex is surrounded by a river and parks, which makes it one of the unique in the city.'
+        details: `This residential complex is designed with your comfort and convenience in mind. Featuring modern architecture, functional layouts, and a range of amenities, this complex offers a harmonious living experience that's perfect for families, couples, and individuals alike.`
     },
     {
         id: 27,
@@ -242,7 +242,7 @@ const projects = [
         img: photo33,
         year: 2023,
         area: 11000,
-        details: 'The residential complex is located in a prestigious district with quite mixed development comprising both old residential neighbourhoods and former industrial plants.'
+        details: `Live your best life in this residential complex that's all about indulgence and relaxation. With a rooftop spa, fitness center, and serene gardens, this complex provides a serene and luxurious living experience that will leave you feeling blissful every day.`
     }
 ];
 

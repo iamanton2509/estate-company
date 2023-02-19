@@ -16,7 +16,7 @@ function Home () {
                     <div className="content-row">
                         <div className="content-text">
                             <h1 className="content-title">We will find a home<br />that's perfect for you.</h1>
-                            <p className="content-description">Search confidently with you trusted source of homes for sale or rent worldwide</p>
+                            <p className="content-description">At Haven Estate, we believe that finding your dream home should be a stress-free and enjoyable experience.</p>
                         </div>   
                         <div className="content-image">
                             <img src={title} alt="House" />  
@@ -39,26 +39,38 @@ function Home () {
             <div className="site-description">
                 <div className="container">
                     <div className="desc">
-                        <h2>Discover a place you'll love to live</h2>
-                        <p>Our mission is to realize the potential of our clients, professionals and partners by building the real estate solutions of the future.
-                        From instilling confidence in today's decisions to re-imagining tomorrow's spaces, we thrive in complex and ever-changing environments</p>
+                        <h2>The home of happy buyers and sellers</h2>
+                        <p>Our team of experienced real estate agents is dedicated to helping you navigate the complex real estate market with ease, providing you with the knowledge and guidance you need to make informed decisions about buying or selling property.</p>
+
                         <br />
-                        <p>We're a team dedicated to the successful marketing of residential developments, mixed-use and historic condominiums — as well as conversions and small-lot subdivisions. Our core competency spans all aspects of the development and sales process. To date, deasy penner podley has exclusively represented 40 multi-unit projects</p>
-                        <h2>The best deals, for both realtors and customers</h2>
-                        <p>Only one network of agents represents the longest standing tastemaker in the world. In the spirit of innovation, an exceptional luxury real estate company  was launched in 1999. Beyond the beautiful properties and the personal touch of our agents, only one brand can deliver a lifestyle that caters to you. With a network of homes for sale worldwide, our website lets you search property listings globally, and includes a large inventory of luxury homes for sale, including houses, condos, townhomes, villas, and more</p>
+
+                        <p>Whether you're a first-time buyer or an experienced investor, our team is here to help you at every step of the way. We offer a range of services, including property valuation, property management, and mortgage advice, to ensure that your property journey is a seamless and successful one.</p>
+
+                        <h2>Unlocking doors to your future</h2>
+                        
+                        <p>Whether you're a first-time buyer or an experienced investor, our team is here to help you at every step of the way. We offer a range of services, including property valuation, property management, and mortgage advice, to ensure that your property journey is a seamless and successful one.</p>
+
                         <br />
-                        <p>We lead by example, guided by the needs of the cities we inhabit, the communities we build and the world we live in. We consist of a culture of respect, integrity, service and excellence shapes our approach to every opportunity. The more perspectives we have, the more dimensions we're able to see. Meet some of the people shaping our view of the world</p>
+
+                        <p>With a focus on professionalism, integrity, and transparency, we aim to exceed your expectations and provide you with a stress-free and rewarding experience. Whether you are looking for a cozy starter home, a luxury villa, or a prime commercial property, we are here to help you achieve your goals.</p>
+
+                        <br />
+
+                        <p>Contact us today to learn more about how we can help you find your dream home or sell your property with ease.</p>
                     </div>
                 </div>
             </div>
 
             <section className="services">
                 <div className="container">
-                    <h2 className="services-title">Why choose us?</h2>
-                    <div className="services-row">
-                        {services.map(service =>
-                            <Services key={service.id} img={service.img} title={service.title} description={service.description} />
-                        )}
+                <h2 className="services-title">Why choose us?</h2>
+                    <div className="services-container">
+                        
+                        <div className="services-row">
+                            {services.map(service =>
+                                <Services key={service.id} img={service.img} title={service.title} description={service.description} />
+                            )}
+                        </div>
                     </div>
                 </div>
             </section>

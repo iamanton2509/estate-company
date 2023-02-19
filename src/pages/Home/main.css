@@ -92,6 +92,15 @@
     font-weight: 300;
     color: var(--page-description);
 }
+.services {
+    text-align: center;
+}
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 75px;
+}
 
 /* Adaptive */
 
@@ -156,6 +165,15 @@
     }
     body {
         background: var(--mobile-background);
+    }
+    .services {
+
+    }
+    .services-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: unset;
     }
 }
 

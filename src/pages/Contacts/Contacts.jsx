@@ -47,7 +47,7 @@ function Contacts () {
                 <MyButton className='openModalBtn' onClick={() => setModal(true)}>Have you got any question?</MyButton>
 
                 <MyModal visible={modal} setVisible={setModal}>
-                    <h3 style={{textAlign: 'center', fontSize: 20}}>Leave your data for us!</h3>
+                    <h3 style={{textAlign: 'center', fontSize: 20, marginBottom: 20, width: 250}}>Leave your contact details on our website so we can call you back and help you find your dream property. We value your time and will work around your schedule. Thank you for considering our services.</h3>
                     <MyInput type="text" placeholder="Your name"></MyInput>
                     <MyInput type="text" placeholder="Your phone"></MyInput>
                     <MyInput type="text" placeholder="Where are you from?"></MyInput>
