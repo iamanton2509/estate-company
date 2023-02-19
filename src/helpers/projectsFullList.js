@@ -11,24 +11,16 @@ import photo11 from "./../images/projects/25.jpeg";
 import photo13 from "./../images/projects/20.jpg";
 import photo14 from "./../images/projects/21.jpg";
 import photo15 from "./../images/projects/31.jpg";
-import photo16 from "./../images/projects/32.jpg";
 import photo17 from "./../images/projects/26.jpg";
-import photo18 from "./../images/projects/33.jpg";
-import photo19 from "./../images/projects/34.jpg";
-import photo20 from "./../images/projects/35.jpg";
 import photo22 from "./../images/projects/37.jpg";
-import photo23 from "./../images/projects/32.jpg";
-import photo24 from "./../images/projects/35.jpg";
 import photo25 from "./../images/projects/39.jpg";
 import photo26 from "./../images/projects/40.jpg";
 import photo27 from "./../images/projects/41.jpg";
-
 import photo28 from "./../images/projects/42.1.jpg";
 import photo29 from "./../images/projects/43.1.jpg";
 import photo30 from "./../images/projects/44.1.jpg";
 import photo31 from "./../images/projects/45.1.jpg";
 import photo32 from "./../images/projects/46.png";
-
 import photo33 from "./../images/projects/51.jpg";
 import photo34 from "./../images/projects/52.jpg";
 import photo35 from "./../images/projects/53.jpg";

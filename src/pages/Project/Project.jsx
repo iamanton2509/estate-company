@@ -6,11 +6,7 @@ import {useFetching} from '../../hooks/useFetching';
 
 import Comments from '../../components/comments/Comments';
 import Loader from '../../components/UI/loader/Loader';
-import MyButton from '../../components/UI/button/MyButton';
 import {projects} from '../../helpers/projectsFullList';
-
-import {getPageCount} from '../../utils/pages';
-import {getPagesArray} from '../../utils/pages';
 
 import Pagination from '../../components/UI/pagination/Pagination';
 

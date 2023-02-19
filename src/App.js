@@ -15,9 +15,6 @@ import "./styles/reset.css";
 import "./styles/darkMode.css";
 import "./styles/common.css";
 
-import Hooks from "./pages/MyHooks/Hooks";
-import Hook from "./pages/MyHooks/Hook";
-
 function App() {
   return (
     <div className="App">
@@ -31,10 +28,6 @@ function App() {
                 <Route path="/contacts" element={<Contacts />} />
                 <Route path="/career" element={<Career />} />
                 <Route path="/privacy" element={<Privacy />} />
-
-                <Route path="/hooks" element={<Hooks />} />
-                <Route path="/hook" element ={<Hook />} />
-
                 <Route path="/project/:id" element={<Project />} />
             </Routes>
 
