@@ -30,13 +30,23 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .project-title {
-    padding: 10px;
     color: #F6F6F6;
     font-weight: 400;
 }
 .project-image {
     width: 380px;
     height: 250px;
+}
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.icon__cart:hover {
+    fill: #BB2649;
+}
+.icon__cart:active {
+    transform: scale(1.1);
 }
 .section {
     margin-bottom: 20px;

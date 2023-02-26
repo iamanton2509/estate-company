@@ -1,5 +1,4 @@
 import Project from '../../components/project/Project';
-import {projects} from '../../helpers/projectsList';
 
 import Services from '../../components/services/Services';
 import {services} from '../../helpers/servicesList';
@@ -8,7 +7,7 @@ import title from './../../images/projects/01.jpg';
  
 import './main.css';
 
-function Home () {
+function Home ({projects, setProjects, addToWishList}) {
     return (
         <>
             <div className="content">
@@ -29,9 +28,19 @@ function Home () {
                 <div className="container">
                     <h2 className="projects-title-main">Our projects</h2>
                     <ul className="projects">
-                        {projects.map(project => 
-                            <Project key={project.id} title={project.title} img={project.img} year={project.year} id={project.id} />
-                        )}
+                        {projects.map((project) => {
+                            if (project.home) {
+                                return <Project 
+                                            key={project.id} 
+                                            title={project.title} 
+                                            img={project.img} 
+                                            year={project.year} 
+                                            id={project.id} 
+
+                                            addToWishList={addToWishList}
+                                        />
+                            }
+                        })}
                     </ul>
                 </div>
             </div>

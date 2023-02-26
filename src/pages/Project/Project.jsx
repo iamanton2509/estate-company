@@ -6,13 +6,12 @@ import {useFetching} from '../../hooks/useFetching';
 
 import Comments from '../../components/comments/Comments';
 import Loader from '../../components/UI/loader/Loader';
-import {projects} from '../../helpers/projectsFullList';
 
 import Pagination from '../../components/UI/pagination/Pagination';
 
 import './project.css';
 
-const Project = () => {
+const Project = ({projects}) => {
     const {id} = useParams();
     const project = projects[id];
 

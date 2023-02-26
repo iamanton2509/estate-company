@@ -35,6 +35,7 @@ function Nav() {
                         <li><NavLink to="/" className={({isActive}) => isActive ? 'nav-list-item active' : 'nav-list-item' } onClick={closeMenu}>Home</NavLink></li>
                         <li><NavLink to="/projects" className={({isActive}) => isActive ? 'nav-list-item active' : 'nav-list-item' } onClick={closeMenu}>Projects</NavLink></li>
                         <li><NavLink to="/contacts" className={({isActive}) => isActive ? 'nav-list-item active' : 'nav-list-item' } onClick={closeMenu}>Contacts</NavLink></li>
+                        <li><NavLink to="/wishlist" className={({isActive}) => isActive ? 'nav-list-item active' : 'nav-list-item' } onClick={closeMenu}>Wishlist</NavLink></li>
                     </ul>
                     <button className="nav-button" onClick={openMenu}>
                         <img src={openButton} alt="nav-open" />
