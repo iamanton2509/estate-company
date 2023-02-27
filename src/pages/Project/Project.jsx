@@ -11,10 +11,13 @@ import Pagination from '../../components/UI/pagination/Pagination';
 
 import './project.css';
 
-const Project = ({projects}) => {
+import heart from "./../../images/heart.svg";
+
+const Project = ({projects, setProjects, addToWishList}) => {
+
     const {id} = useParams();
     const project = projects[id];
-
+    
     const [comments, setComments] = useState([
         {
             id: 1,
@@ -58,6 +61,12 @@ const Project = ({projects}) => {
                         <p className="project-description__area"><strong>Area:</strong> {project.area} sq. m</p>
                         <p className="project-description__year"><strong>Year:</strong> {project.year}</p>
                         <p className="project-description__text">{project.details}</p>
+
+                        <button onClick={() => addToWishList(project.id)} className="project-button">
+                            <img src={heart} alt="add to wishlist" />
+                            <span className="tooltip">Add to wishlist</span>
+                        </button>
+
                     </div>
                 </div>
                 <h1 style={{fontSize: 35, color: 'var(--service-paragraph)', textAlign: 'center'}}>Comments</h1>

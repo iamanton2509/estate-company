@@ -18,6 +18,10 @@
     display: flex;
     flex-direction: column;
 }
+.wishlist__content {
+    display: flex;
+    justify-content: space-around;
+}
 .wishlist__item {
     display: flex;
     border: 2px solid var(--different-blue);
@@ -31,14 +35,20 @@
 .wishlist__details {
     display: flex;
     flex-direction: column;
-    padding: 0 50px;
+    row-gap: 20px;
+    padding: 0 30px;
 }
 .wishlist__title {
     font-size: 25px;
     font-weight: 500;
+    color: var(--page-description);
 }
 .wishlist__description {
     font-size: 19px;
+    color: var(--service-paragraph);
+}
+.wishlist__date {
+    color: var(--different-blue);
 }
 .wishlist__delete img {
     width: 120px;

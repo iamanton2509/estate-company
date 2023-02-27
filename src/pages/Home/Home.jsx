@@ -1,11 +1,14 @@
-import Project from '../../components/project/Project';
+import Project from "../../components/project/Project";
 
-import Services from '../../components/services/Services';
-import {services} from '../../helpers/servicesList';
+import Services from "../../components/services/Services";
+import {services} from "../../helpers/servicesList";
 
-import title from './../../images/projects/01.jpg';
+import News from "./../../components/News/News";
+import news from "./../../helpers/newsList";
+
+import title from "./../../images/projects/01.jpg";
  
-import './main.css';
+import "./main.css";
 
 function Home ({projects, setProjects, addToWishList}) {
     return (
@@ -73,14 +76,36 @@ function Home ({projects, setProjects, addToWishList}) {
             <section className="services">
                 <div className="container">
                 <h2 className="services-title">Why choose us?</h2>
-                    <div className="services-container">
-                        
+                    <div className="services-container">  
                         <div className="services-row">
-                            {services.map(service =>
-                                <Services key={service.id} img={service.img} title={service.title} description={service.description} />
+                            {services.map((service) =>
+                                <Services 
+                                    key={service.id} 
+                                    img={service.img} 
+                                    title={service.title} 
+                                    description={service.description} />
                             )}
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section className="section-news">
+                <div className="container">
+                    <section className="news">
+                        <h1 className="news__title">News</h1>
+                        <p className="news__description">Stay informed with the latest real estate news and trends on our website. Our expert writers provide valuable insights on market trends, buying and selling tips, and investment strategies</p>
+                        <ul className="news__items">
+                            {news.map((item) => 
+                                <News 
+                                    key={item.id} 
+                                    img={item.img} 
+                                    title={item.title} 
+                                    date={item.date} 
+                                    id={item.id}/>
+                            )}
+                        </ul>
+                    </section>
                 </div>
             </section>
         </>

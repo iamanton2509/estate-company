@@ -1,0 +1,35 @@
+.news-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 20px 0;
+}
+.news-page > * {
+    text-align: center;
+}
+.news-page img {
+    object-fit: contain;
+    height: 420px;
+}
+.news-page__title {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--different-blue);
+    margin-bottom: 20px;
+}
+.news-page__greeting {
+    font-size: 25px;
+    color: var(--page-description);
+    margin: 10px 0;
+}
+.news-page__description {
+    font-size: 23px;
+    margin: 15px 0;
+    color: var(--page-description);
+}
+.news-page__date {
+    font-size: 20px;
+    color: var(--service-paragraph);
+    text-align: end;
+}

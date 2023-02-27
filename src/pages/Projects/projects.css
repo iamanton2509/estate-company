@@ -44,9 +44,10 @@
 }
 .icon__cart:hover {
     fill: #BB2649;
+    transform: scale(1.1);
 }
 .icon__cart:active {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .section {
     margin-bottom: 20px;

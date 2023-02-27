@@ -36,9 +36,29 @@
     font-size: 18px;
     color: var(--service-paragraph);
     font-family: 'Montserrat', sans-serif;
-    
 }
+.project-button {
+    position: relative;
+}
+.tooltip {
+    visibility: hidden;
+    width: 200px;
+    background-color: var(--service-paragraph);
+    color: var(--mobile-background);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
 
+    position: absolute;
+    z-index: 1;
+    bottom: 95%;
+    left: 50%;
+
+    margin-left: -95px;
+}
+.project-button:hover .tooltip {
+    visibility: visible;
+}
 /* View projects on projects page */
 
 .project-image {
