@@ -1,6 +1,13 @@
+import { useDeleteFromWishlistMutation } from "../../store/wishlistApi";
 import remove from "./../../images/delete.svg";
 
-const WishListItem = ({img, title, description, year, id, deleteFromWishlist}) => {
+const WishListItem = ({img, title, description, year, id}) => {
+    const [deleteItem] = useDeleteFromWishlistMutation();
+
+    const deleteFromWishlist = async(id) => {
+        await deleteItem(id);
+    }
+
     return (
         <li className="wishlist__item">
             <img src={img} alt="project" />

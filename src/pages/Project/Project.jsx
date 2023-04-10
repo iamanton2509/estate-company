@@ -1,22 +1,18 @@
 import {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
+import {useGetProjectsQuery} from '../../store/projectsApi';
 import CommentService from '../../components/API/CommentService';
-
 import {useFetching} from '../../hooks/useFetching';
-
 import Comments from '../../components/comments/Comments';
 import Loader from '../../components/UI/loader/Loader';
-
 import Pagination from '../../components/UI/pagination/Pagination';
-
 import './project.css';
-
 import heart from "./../../images/heart.svg";
 
-const Project = ({projects, setProjects, addToWishList}) => {
-
+const Project = () => {
+    const {data = [], isLoading} = useGetProjectsQuery();
     const {id} = useParams();
-    const project = projects[id];
+    const project = data[id];
     
     const [comments, setComments] = useState([
         {
@@ -48,6 +44,10 @@ const Project = ({projects, setProjects, addToWishList}) => {
         fetchComments();
     }, []);
 
+    const toggleProject = async (id) => {
+        // await toggleProjects(id).unwrap();
+    }
+
     return (
         <div className="project-content">
             <div className="container">
@@ -62,7 +62,7 @@ const Project = ({projects, setProjects, addToWishList}) => {
                         <p className="project-description__year"><strong>Year:</strong> {project.year}</p>
                         <p className="project-description__text">{project.details}</p>
 
-                        <button onClick={() => addToWishList(project.id)} className="project-button">
+                        <button onClick={() => toggleProject(project.id)} className="project-button">
                             <img src={heart} alt="add to wishlist" />
                             <span className="tooltip">Add to wishlist</span>
                         </button>

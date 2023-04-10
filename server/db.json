@@ -1,0 +1,302 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Los Angeles, California, USA",
+      "img": "server/images/05.jpg",
+      "year": 2014,
+      "area": 7350,
+      "details": "Imagine a luxurious residential complex in a quiet rural location with stunning mountain views and peaceful pine forests",
+      "home": true
+    },
+    {
+      "id": 2,
+      "title": "Chicago, Illinois, USA",
+      "img": "./src/images/projects/26.jpg",
+      "year": 2021,
+      "area": 6500,
+      "details": "Live your best life in this residential complex that's all about indulgence and relaxation.With a rooftop spa, fitness center, and serene gardens, this complex provides a serene and luxurious living experience that will leave you feeling blissful every day."
+    },
+    {
+      "id": 3,
+      "title": "Madrid, Spain",
+      "img": "server/images/25.jpg",
+      "year": 2014,
+      "area": 7350,
+      "details": "Imagine a luxurious residential complex in a quiet rural location with stunning mountain views and peaceful pine forests",
+      "home": true
+    },
+    {
+      "id": 4,
+      "title": "Marseille, France",
+      "img": "./images/37.jpg",
+      "year": 2014,
+      "area": 7350,
+      "details": "Imagine a luxurious residential complex in a quiet rural location with stunning mountain views and peaceful pine forests"
+    },
+    {
+      "id": 5,
+      "title": "Toronto, Canada",
+      "img": "./src/images/projects/41.jpg",
+      "year": 2014,
+      "area": 7350,
+      "details": "Imagine a luxurious residential complex in a quiet rural location with stunning mountain views and peaceful pine forests"
+    },
+    {
+      "id": 5,
+      "title": "Toronto, Canada",
+      "img": "./src/images/projects/39.jpg",
+      "year": 2016,
+      "area": 8600,
+      "details": "Embrace the beauty of nature with our stunning residential complex, nestled in a tranquil park-like setting. Our spacious and elegantly designed apartments offer the perfect escape from the chaos of the city.",
+      "home": true
+    },
+    {
+      "id": 6,
+      "title": "Munich, Germany",
+      "img": "./src/images/projects/31.jpg",
+      "year": 2022,
+      "area": 10500,
+      "details": "Experience the ultimate in privacy and exclusivity at our high-end residential complex. Our luxurious apartments offer an unparalleled level of comfort and style, with amenities that cater to your every need."
+    },
+    {
+      "id": 7,
+      "title": "Brusell, Belgium",
+      "img": "./src/images/projects/22.jpg",
+      "year": 2018,
+      "area": 6000,
+      "details": "Our residential complex is located in a peaceful and serene environment, surrounded by lush greenery and scenic views. The apartments are designed with modern amenities to ensure a comfortable and luxurious living experience",
+      "home": true
+    },
+    {
+      "id": 8,
+      "title": "Lissabon, Portugal",
+      "img": "./src/images/projects/39.jpg",
+      "year": 2017,
+      "area": 4000,
+      "details": "Experience the perfect blend of urban living and natural beauty in our residential complex. The apartments are built to provide a spacious and airy living space, with easy access to green parks and walking trails"
+    },
+    {
+      "id": 9,
+      "title": "Helsinki, Finland",
+      "img": "./src/images/projects/40.jpg",
+      "year": 2016,
+      "area": 6000,
+      "details": "Discover the height of luxury living in our modern residential complex. Our apartments offer breathtaking views of the city skyline and are equipped with the latest amenities for a comfortable and convenient lifestyle."
+    },
+    {
+      "id": 10,
+      "title": "Brusell, Belgium",
+      "img": "./src/images/projects/18.jpg",
+      "year": 2020,
+      "area": 8500,
+      "details": "Indulge in the ultimate coastal living experience in our residential complex, which is situated on the oceanfront. Our villas offer stunning views of the ocean and are designed to provide a luxurious and comfortable living space."
+    },
+    {
+      "id": 11,
+      "title": "Oslo, Norway",
+      "img": "./src/images/projects/10.jpg",
+      "year": 2010,
+      "area": 3500,
+      "details": "Our residential complex is a peaceful haven in the heart of the city, offering residents a tranquil escape from the bustling urban environment. The apartments are built with a focus on sustainability and offer modern amenities for a comfortable and eco-friendly living experience",
+      "home": true
+    },
+    {
+      "id": 12,
+      "title": "Stockholm, Sweden",
+      "img": "./src/images/projects/42.1.jpg",
+      "year": 2013,
+      "area": 4500,
+      "details": "Welcome to our luxurious residential complex, where comfort meets elegance. Our modern apartments offer the latest in amenities and technology, while our beautifully landscaped grounds provide a serene oasis in the heart of the city"
+    },
+    {
+      "id": 13,
+      "title": "Copenhagen, Dennmark",
+      "img": "./src/images/projects/43.1.jpg",
+      "year": 2017,
+      "area": 6500,
+      "details": "Discover the best of urban living in our vibrant residential complex. With spacious floor plans and stunning views of the city skyline, our apartments are the perfect blend of sophistication and convenience. Our community amenities include a state-of-the-art fitness center, pool, and rooftop lounge."
+    },
+    {
+      "id": 14,
+      "title": "Dortmund, Germany",
+      "img": "./src/images/projects/44.1.jpg",
+      "year": 2018,
+      "area": 9500,
+      "details": "Escape to a tranquil retreat in our peaceful residential complex. Our spacious apartments are designed with your comfort in mind, featuring high-end finishes and thoughtful details. Our private courtyard and outdoor recreation area offer a serene escape from the hustle and bustle of the city."
+    },
+    {
+      "id": 15,
+      "title": "Melbourne, Australia",
+      "img": "./src/images/projects/45.1.jpg",
+      "year": 2021,
+      "area": 5500,
+      "details": "Experience the ultimate in modern living in our sleek and stylish residential complex. Our apartments feature open-concept layouts and high-end finishes, while our community amenities include a 24-hour fitness center, co-working space, and rooftop terrace with panoramic views"
+    },
+    {
+      "id": 16,
+      "title": "Zurich, Switzerland",
+      "img": "./src/images/projects/46.png",
+      "year": 2018,
+      "area": 6500,
+      "details": "Welcome to a community that feels like home. Our residential complex offers a warm and welcoming environment, with spacious apartments and inviting common areas. Our community amenities include a resident lounge, dog park, and onsite laundry facilities for your convenience.",
+      "home": true
+    },
+    {
+      "id": 17,
+      "title": "Kyiv, Ukraine",
+      "img": "./src/images/projects/20.jpg",
+      "year": 2018,
+      "area": 5000,
+      "details": "This residential complex is the epitome of luxury living, offering high-end finishes and top-of-the-line amenities. Nestled in a serene and peaceful setting, this complex provides the ultimate refuge from the hustle and bustle of the city."
+    },
+    {
+      "id": 18,
+      "title": "Warshava, Poland",
+      "img": "./src/images/projects/21.jpg",
+      "year": 2018,
+      "area": 4500,
+      "details": "Nestled in a tranquil location surrounded by lush greenery, Serene Haven offers modern and luxurious apartments that provide the perfect escape from the hustle and bustle of the city."
+    },
+    {
+      "id": 19,
+      "title": "Praha, Czech",
+      "img": "./src/images/projects/17.png",
+      "year": 2019,
+      "area": 10000,
+      "details": "Located just steps away from the beach, Coastal Retreat offers stunning ocean views and an idyllic seaside lifestyle. Enjoy spacious and contemporary apartments that make you feel like you're on vacation every day."
+    },
+    {
+      "id": 20,
+      "title": "Budapest, Hungary",
+      "img": "./src/images/projects/28.jpg",
+      "year": 2019,
+      "area": 8500,
+      "details": "Situated in the heart of the city, City Oasis offers a peaceful and relaxing haven from the busy urban environment. With elegant and well-appointed apartments, you'll enjoy the best of both worlds - a convenient location and a tranquil home."
+    },
+    {
+      "id": 21,
+      "title": "Tokyo, Japan",
+      "img": "./src/images/projects/54.jpg",
+      "year": 2021,
+      "area": 9500,
+      "details": "Boasting panoramic views of the city skyline, Elevated Living offers an elevated lifestyle experience that's hard to beat. Featuring stylish and spacious apartments with high-end finishes and state-of-the-art amenities, this is urban living at its finest."
+    },
+    {
+      "id": 22,
+      "title": "Beijing, China",
+      "img": "./src/images/projects/08.jpg",
+      "year": 2015,
+      "area": 6500,
+      "details": "Surrounded by picturesque parks and green spaces, Nature's Haven offers a peaceful and natural retreat in the heart of the city. Enjoy the perfect blend of urban and outdoor living in beautifully designed apartments that seamlessly integrate with their surroundings."
+    },
+    {
+      "id": 23,
+      "title": "Kyiv, Ukraine",
+      "img": "./src/images/projects/11.jpg",
+      "year": 2011,
+      "area": 7500,
+      "details": "This residential complex is the epitome of luxury living, offering high-end finishes and top-of-the-line amenities. Nestled in a serene and peaceful setting, this complex provides the ultimate refuge from the hustle and bustle of the city."
+    },
+    {
+      "id": 24,
+      "title": "Paris, France",
+      "img": "./src/images/projects/53.jpg",
+      "year": 2017,
+      "area": 9750,
+      "details": "Looking for a peaceful haven in the midst of the city? This residential complex is the answer. With lush green spaces, landscaped gardens, and a resort-style pool, this complex provides an urban oasis where you can escape from the noise and chaos of the city."
+    },
+    {
+      "id": 25,
+      "title": "Lyon, France",
+      "img": "./src/images/projects/54.jpg",
+      "year": 2019,
+      "area": 10000,
+      "details": "Perched atop a hill, this residential complex offers breathtaking views of the city and the surrounding landscape. With spacious apartments, top-quality finishes, and state-of-the-art facilities, this complex is the perfect place to call home."
+    },
+    {
+      "id": 26,
+      "title": "Istanbul, Turkey",
+      "img": "./src/images/projects/51.jpg",
+      "year": 2021,
+      "area": 6500,
+      "details": "Live your best life in this residential complex that's all about indulgence and relaxation. With a rooftop spa, fitness center, and serene gardens, this complex provides a serene and luxurious living experience that will leave you feeling blissful every day."
+    }
+  ],
+  "wishlist": [],
+  "news": [
+    {
+      "id": 0,
+      "title": "We are opening a new branch in New York",
+      "img": "./../images/projects/06.jpg",
+      "date": "February 25, 2023",
+      "greeting": "Dear valued customers and partners, we are excited to announce that we are expanding our services to the vibrant city of New York!",
+      "description": "Our new branch will offer the same high-quality service that you have come to expect from us, along with a range of new properties and investment opportunities.Our experienced team of agents is dedicated to helping you navigate the complex New York real estate market, whether you are a first-time buyer or a seasoned investor. We understand that every client is unique, and we work hard to provide personalized service that meets your individual needs and preferences.The new branch is located in a prime location in the heart of New York, making it easy for you to visit us and explore the properties on offer. We are confident that our expertise, combined with our commitment to transparency, professionalism, and integrity, will make us a trusted partner in your real estate journey.Thank you for your continued support and trust in our company. We look forward to serving you at our new New York branch and helping you achieve your real estate goals."
+    },
+    {
+      "id": 1,
+      "title": "Our web site has been updated!",
+      "img": "./../images/news-site-transformed.png",
+      "date": "February 10, 2023",
+      "greeting": "Dear valued customers and partners, we are excited to announce that we have updated the style of our website!",
+      "description": "Our new design features a modern, user-friendly interface that is easy to navigate and provides a seamless browsing experience. In addition to the improved user interface, we have also made enhancements to the functionality of our website, making it faster and more responsive. You can now access our property listings, investment opportunities, and other valuable resources more quickly and efficiently than ever before. We believe that the updated style of our website better reflects our commitment to innovation, transparency, and professionalism. Our aim is to provide you with the best possible experience when searching for your dream property or investment opportunity. Thank you for your continued support and trust in our company. We look forward to serving you with the same high-quality service that you have come to expect from us"
+    },
+    {
+      "id": 2,
+      "title": "Buy estate with us and get profit",
+      "img": "./../images/projects/06.jpg",
+      "date": "January 2, 2023",
+      "description": "When you buy estate with us, you can be assured that you are making a sound financial decision. We carefully select properties that are located in high-growth areas, have potential for rental income, and are likely to appreciate in value over time. Our team of experienced professionals will guide you through the buying process, providing you with all the information and assistance you need to make an informed decision. One of the great benefits of investing in real estate is the potential for steady cash flow from rental income. Our team can help you find properties that are suitable for rental income, and provide you with all the support you need to manage the property effectively."
+    }
+  ],
+  "services": [
+    {
+      "id": 0,
+      "title": "Worldwide",
+      "img": "./../images/services/globe.svg",
+      "description": "Our services extend beyond national borders to cater to clients all over the world, ensuring that you have access to the best properties and investment opportunities available."
+    },
+    {
+      "id": 1,
+      "title": "Profit",
+      "img": "./../images/services/globe.svg",
+      "description": "We offer a result-driven approach that ensures immediate and profitable outcomes for all our clients. We understand that time is of the essence, which is why we work diligently to provide prompt results that meet your specific needs."
+    },
+    {
+      "id": 2,
+      "title": "Result",
+      "img": "./../images/services/globe.svg",
+      "description": "Our agency's expertise and experience in the real estate market allow us to provide you with tailored solutions that not only meet but exceed your expectations."
+    },
+    {
+      "id": 3,
+      "title": "Support",
+      "img": "./../images/services/globe.svg",
+      "description": "We understand that navigating the real estate market can be a daunting task, which is why we provide 24/7 support to ensure that you have access to professional assistance at all times."
+    },
+    {
+      "id": 4,
+      "title": "Analysis",
+      "img": "./../images/services/globe.svg",
+      "description": "Our attention to detail is unparalleled, with a rigorous and thorough analysis of every aspect of the properties we offer. We provide comprehensive and accurate information that enables you to make informed decisions about your investments."
+    },
+    {
+      "id": 5,
+      "title": "Sales",
+      "img": "./../images/services/globe.svg",
+      "description": "We pride ourselves on providing exceptional service to our clients. We are known for offering frequent sales and special deals that make our properties more accessible and affordable."
+    },
+    {
+      "id": 6,
+      "title": "Fast",
+      "img": "./../images/services/globe.svg",
+      "description": "Our agency works fast to ensure that you can secure the property of your dreams as soon as possible. We understand that timing is of the essence when it comes to real estate, which is why we strive to complete transactions as quickly and efficiently as possible."
+    },
+    {
+      "id": 7,
+      "title": "Review",
+      "img": "./../images/services/globe.svg",
+      "description": "We are proud to be recommended by thousands of our clients. Our agency's reputation for providing top-notch service and expertise has earned us the trust and loyalty of many satisfied clients who have experienced firsthand the benefits of working with us."
+    }
+  ]
+}

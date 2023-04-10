@@ -10,7 +10,7 @@ import support from './../images/services/support.svg';
 const services = [
     {
         id: 1,
-        title: "Worldwide",
+        title: 'Worldwide',
         img: globe,
         description: 'Our services extend beyond national borders to cater to clients all over the world, ensuring that you have access to the best properties and investment opportunities available.'
     },

@@ -1,16 +1,12 @@
+import {useGetProjectsQuery} from "../../store/projectsApi";
 import Project from "../../components/project/Project";
-
-import Services from "../../components/services/Services";
-import {services} from "../../helpers/servicesList";
-
-import News from "./../../components/News/News";
-import news from "./../../helpers/newsList";
-
+import ServiceList from "../../components/services/ServiceList";
+import NewsList from "../../components/News/NewsList";
 import title from "./../../images/projects/01.jpg";
- 
 import "./main.css";
 
-function Home ({projects, setProjects, addToWishList}) {
+function Home () {
+    const {data = []} = useGetProjectsQuery();
     return (
         <>
             <div className="content">
@@ -31,7 +27,7 @@ function Home ({projects, setProjects, addToWishList}) {
                 <div className="container">
                     <h2 className="projects-title-main">Our projects</h2>
                     <ul className="projects">
-                        {projects.map((project) => {
+                        {data.map((project) => {
                             if (project.home) {
                                 return <Project 
                                             key={project.id} 
@@ -39,8 +35,6 @@ function Home ({projects, setProjects, addToWishList}) {
                                             img={project.img} 
                                             year={project.year} 
                                             id={project.id} 
-
-                                            addToWishList={addToWishList}
                                         />
                             }
                         })}
@@ -73,38 +67,14 @@ function Home ({projects, setProjects, addToWishList}) {
                 </div>
             </div>
 
-            <section className="services">
-                <div className="container">
-                <h2 className="services-title">Why choose us?</h2>
-                    <div className="services-container">  
-                        <div className="services-row">
-                            {services.map((service) =>
-                                <Services 
-                                    key={service.id} 
-                                    img={service.img} 
-                                    title={service.title} 
-                                    description={service.description} />
-                            )}
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <ServiceList />
 
             <section className="section-news">
                 <div className="container">
                     <section className="news">
                         <h1 className="news__title">News</h1>
                         <p className="news__description">Stay informed with the latest real estate news and trends on our website. Our expert writers provide valuable insights on market trends, buying and selling tips, and investment strategies</p>
-                        <ul className="news__items">
-                            {news.map((item) => 
-                                <News 
-                                    key={item.id} 
-                                    img={item.img} 
-                                    title={item.title} 
-                                    date={item.date} 
-                                    id={item.id}/>
-                            )}
-                        </ul>
+                        <NewsList />
                     </section>
                 </div>
             </section>

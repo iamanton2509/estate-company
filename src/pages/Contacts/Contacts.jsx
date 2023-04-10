@@ -6,7 +6,7 @@ import MyModal from '../../components/UI/modal/MyModal';
 
 import './contacts.css';
 
-function Contacts () {
+const Contacts = () => {
 
     const [modal, setModal] = useState(false);
 
